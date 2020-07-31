@@ -7,15 +7,15 @@ body {
 }
 /**header**/
 #header-nav{
-	background-color:skyblue;
+	background-color:white;
 	border-radius:0;
 	border:10;
 }
 #logo-img{
-	background: url("../images/logo-img.png") no-repeat;
-	width:150px;
-	height:150px;
-	margin: 10px 15px 10px 0;
+	background: url("../images/logo-img1.png") no-repeat;
+	width:140px;
+	height:140px;
+	margin: 5px 10px 5px 0;
 }
 .navbar-brand {
   padding-top: 25px;
@@ -43,3 +43,35 @@ body {
 .navbar-brand p span { /* Star-K */
   vertical-align: middle;
 }
+#nav-list {
+  margin-top:20px;
+}
+#nav-list a {
+  color:black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background:lightgreen;
+}
+#nav-list a span {
+  font-size: 1.4em;
+}
+
+#phone {
+  margin-top: 0px;
+}
+#phone a { /* Phone number */
+  text-align:center;
+  padding-bottom:0;
+  font-size:0.6em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 0px;
+}
+/* END HEADER */
+

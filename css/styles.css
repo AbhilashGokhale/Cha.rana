@@ -61,7 +61,7 @@ body {
 }
 
 #phone {
-  margin-top: -35px;
+  margin-top:5px;
   margin-right: -80px;
 }
 #phone a { /* Phone number */
@@ -101,7 +101,7 @@ body {
 }
 
 /********** Extra small devices only **********/
-@media (max-width: 377px) {
+@media (max-width: 477px) {
   /* Header */
   .navbar-brand {
     padding-top: 10px;

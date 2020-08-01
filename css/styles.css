@@ -54,19 +54,20 @@ body {
 
 }
 #nav-list a:hover {
-  background:white;
+  background:rgb(70 200 50);
 }
 #nav-list a span {
   font-size: 0.8em;
 }
 
 #phone {
-  margin-top: -10px;
+  margin-top: -35px;
+  margin-right: -80px;
 }
 #phone a { /* Phone number */
   text-align:center;
-  padding-bottom:1px;
-  font-size:0.6em;
+  padding-bottom:5px;
+  font-size:0.8em;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -125,6 +126,8 @@ body {
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 0.8em;
     float:center;
+    border-top:-25px;
+    border-bottom:-25px;
   }
   #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 4vw;
@@ -133,6 +136,20 @@ body {
     margin-top:-50px;
 
   }
+  #nav-list a {
+  color:black;
+  text-align:center;
+  padding-top:15px;
+
+}
+#phone a { /* Phone number */
+  text-align:center;
+  margin-top: 40px;
+  padding-right:70px;
+  padding-top:1px;
+  padding-left:10px;
+  font-size:0.9em;
+}
 
   /* End Header */
 

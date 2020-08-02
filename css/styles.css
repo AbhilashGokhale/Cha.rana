@@ -13,9 +13,9 @@ body {
 }
 #logo-img{
 	background: url("../images/logo-img1.png") no-repeat;
-	width:110px;
-	height:110px;
-	margin: 5px 5px -5px 5px;
+	width:90px;
+	height:90px;
+	margin-top:10px;
 }
 .navbar-brand {
   padding-top: 20px;
@@ -37,7 +37,7 @@ body {
   color: #000;
   
   font-size: .8em;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .navbar-brand p span { /* Star-K */
   vertical-align:center;
@@ -50,7 +50,7 @@ body {
 #nav-list a {
   color:black;
   text-align:center;
-  padding-top:35px;
+  padding-top:15px;
 
 }
 #nav-list a:hover {
@@ -79,15 +79,57 @@ body {
   margin-top:25px;
 }
 
-#slideshow { 
-    position:relative; 
-    width:1350px; 
-    height:800px;     
-    }
- #abhi{
- 	border-top:950px;
- 	font-color:black;
- }
+.slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 1400px; 
+    height:800px; 
+    padding: 5px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+    margin-left:15px;
+}
+
+.slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+#menu-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 105%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 0.5px solid #3F0C1F;
+  overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile {
+  background: url('../images/IMG_6631.JPG') no-repeat;
+  background-position: center;
+}
+#specials-tile {
+  background: url('IMG_6631.JPG') no-repeat;
+  background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
 
 /* END HEADER */
 
@@ -107,10 +149,27 @@ body {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
- 
+	  /* Header */
+.slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 1300px; 
+    height:200px; 
+    padding: 5px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+    margin-left:15px;
 }
 
+.slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
 }
+
+
+
 
 /********** Extra small devices only **********/
 @media (max-width: 477px) {
@@ -134,6 +193,10 @@ body {
 	margin: -3px 5px -5px 5px;
 
   }
+  #collapse-nav {
+  	padding-left: 0px;
+  	padding-right: 0px;
+  }
 
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 0.8em;
@@ -151,7 +214,7 @@ body {
   #nav-list a {
   color:black;
   text-align:center;
-  padding-top:15px;
+  padding-top:5px;
 
 }
 #phone a { /* Phone number */
@@ -165,11 +228,27 @@ body {
 
   /* End Header */
 #slideshow { 
-    background: url("DSCN1084.JPG");
-    position:static; 
-    width:480px; 
-    height:300px;
-    border-image: 500px 300px;
+    margin: 50px auto; 
+    position: relative; 
+    width: 240px; 
+    height: 170px; 
+    padding: 5px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+ #menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+
    
 }
 

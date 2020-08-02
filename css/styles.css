@@ -7,7 +7,7 @@ body {
 }
 /**header**/
 #header-nav{
-	background-color:lightgreen;
+	background-color:#798B45;
 	border-radius:0;
 	border:10;
 }
@@ -54,7 +54,7 @@ body {
 
 }
 #nav-list a:hover {
-  background:rgb(70 200 50);
+  background:white;
 }
 #nav-list a span {
   font-size: 0.8em;
@@ -78,6 +78,17 @@ body {
   clear:inherit;
   margin-top:25px;
 }
+
+#slideshow { 
+    position:relative; 
+    width:1350px; 
+    height:800px;     
+    }
+ #abhi{
+ 	border-top:950px;
+ 	font-color:black;
+ }
+
 /* END HEADER */
 
 
@@ -96,7 +107,8 @@ body {
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-
+ 
+}
 
 }
 
@@ -152,6 +164,13 @@ body {
 }
 
   /* End Header */
-
+#slideshow { 
+    background: url("DSCN1084.JPG");
+    position:static; 
+    width:480px; 
+    height:300px;
+    border-image: 500px 300px;
+   
 }
+
 

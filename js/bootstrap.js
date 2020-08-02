@@ -1868,7 +1868,7 @@ if (typeof jQuery === 'undefined') {
     return this
   }
 
-}(jQuery);
+  
 
 /* ========================================================================
  * Bootstrap: scrollspy.js v3.3.6
@@ -2341,6 +2341,7 @@ if (typeof jQuery === 'undefined') {
     $.fn.affix = old
     return this
   }
+  
 
 
   // AFFIX DATA-API

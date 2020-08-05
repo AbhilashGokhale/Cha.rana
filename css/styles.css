@@ -1,91 +1,79 @@
 body {
-  font-size:18px;
+  font-size: 16px;
   font-weight:bold;
   color:black;
-  background-color:white;
-  font-family: 'Oxygen', sans-serif;
+  background-color:#E7E7E7;
+  font-family: 'Oxygen', sans-serif
 }
-/**header**/
-#header-nav{
-	background-color:white;
-	border-radius:0;
-	border:0;
-}
-#logo-img{
-	background: url("../images/logo-img.png") no-repeat;
-	width:90px;
-	height:90px;
-	margin-top:10px;
-}
-.navbar-brand {
-  padding-top: 20px;
+/* HOME PAGE */
+/** HEADER **/
+#header-nav {
+  background-color:lightblue;
+  border-radius: 0;
+  border: 0;
 }
 
-.navbar-brand h1 { /*  name */
+#logo-img {
+  background: url("../images/logo.png") no-repeat;
+  width: 85px;
+  height: 85px;
+  margin: -5px 2px -15px -5px;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+.navbar-brand h1 { /* name */
+ 
   color:black;
-  font-size:3.0em;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
+  font-size:2.0em;
+  font-weight: bolder;
+  text-shadow: 2px 2px 1px grey;
   margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
+  margin-bottom: -5px;
+  line-height: .70;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration:blink;
+  text-decoration: none;
 }
-.navbar-brand p { /* trek to you */
+.navbar-brand p { /* Kosher cert */
   color: #000;
-  
   font-size: .8em;
-  margin-top: 10px;
+  margin-top:10px;
 }
 .navbar-brand p span { /* Star-K */
-  vertical-align:center;
+  vertical-align: middle;
 }
 
-}
 #nav-list {
-  margin-top:10px;
+  margin-top: 2px;
 }
 #nav-list a {
   color:black;
-  text-align:center;
-  padding-top:15px;
-
+  text-align: center;
 }
 #nav-list a:hover {
-  background:lightgrey;
+  background:white;
 }
 #nav-list a span {
-  font-size: 0.8em;
+  font-size:1.5em;
 }
-
-#phone {
-  margin-top:5px;
-  margin-right: -80px;
-}
-#phone a { /* Phone number */
-  text-align:center;
-  padding-bottom:5px;
-  font-size:0.8em;
-}
-
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: -1px solid black ;
-  border-top:150px;
+  border: 1.2px solid black;
 }
 .navbar-header button.navbar-toggle {
-  clear:inherit;
-  margin-top:25px;
+  clear: both;
+  margin-top: -30px;
 }
+/* END HEADER */
 
 .slideshow { 
     margin: 50px auto; 
     position: relative; 
-    width: 1400px; 
-    height:300px; 
+    width: 100%; 
+    height:400px; 
     padding-top: 5px; 
-    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+    box-shadow: 0 0 0px rgba(0,0,0,0.4); 
     margin-left:15px;
 }
 
@@ -97,58 +85,58 @@ body {
     bottom: 10px; 
 }
 #slide1{
-	background: url("../images/IMG_6629.JPG") no-repeat;
-	width:1350px;
-	height:300px;
+  background: url("../images/DSCN1029.JPG") no-repeat;
+  width:100%;
+  height:400px;
 }
 #slide2{
-	background: url("../images/IMG_1901.JPG") no-repeat;
-	width:1350px;
-	height:300px;
+  background: url("../images/IMG_1901.JPG") no-repeat;
+  width:100%;
+  height:400px;
 }
 #slide3 {
-	background: url("../images/IMG_6630.JPG") no-repeat;
-	width:1350px;
-	height:300px;
+  background: url("../images/IMG_6630.JPG") no-repeat;
+  width:100%;
+  height:400px;
 }
 #slide4 {
-	background: url("../images/DSCN0960.JPG") no-repeat;
-	width:1350px;
-	height:300px;
+  background: url("../images/DSCN0960.JPG") no-repeat;
+  width:100%;
+  height:400px;
 }
 #slide5 {
-	background: url("../images/IMG_6627.JPG") no-repeat;
-	width:1350px;
-	height:300px;
+  background: url("../images/IMG_6627.JPG") no-repeat;
+  width:100%;
+  height:400px;
 }
 #slide6 {
-	background: url("../images/DSCN1084.JPG") no-repeat;
-	width:1350px;
-	height:300px;
+  background: url("../images/DSCN1084.JPG") no-repeat;
+  width:100%;
+  height:400px;
 }
 #quote{
-	font-color:green;
-	text-align: center;
-	font-weight: bolder !important;
-	margin-top:35px;
+  font-color:green;
+  text-align: center;
+  font-weight: bolder !important;
+  margin-top:35px;
 }
 #kod{
-	background: url("") no-repeat;
+  background: url("../images/kod.png") no-repeat;
 }
 #ett{
-	background: url("") no-repeat;
+  background: url("../images/ett.png") no-repeat;
 }
 #kum{
-	background: url("") no-repeat;
+  background: url("../images/kum.png") no-repeat;
 }
 #tad{
-	background: url("") no-repeat;
+  background: url("../images/tad.png") no-repeat;
 }
 #ban{
-	background: url("") no-repeat;
+  background: url("../images/ban.png") no-repeat;
 }
 #bal{
-	background: url("") no-repeat;
+  background: url("../images/bal.png") no-repeat;
 }
 #kod, #ett, #kum ,#tad, #ban, #bal {
   height: 210px;
@@ -156,37 +144,39 @@ body {
   margin-bottom: 10px;
   position: relative;
   overflow: hidden;
-  border: 0.1px solid grey;
+  border: 0px solid grey;
 }
-#hime-tiles{
-	padding-top: 20px;
+#home-tiles{
+  padding-top: 0px;
 }
 #offr div{
-	padding-left:45px;
-	padding-top: 20px;
+  padding-left:45px;
+  padding-top: 20px;
 }
+#updt div{
+  padding-left:45px;
+  padding-top: 20px;
+}
+
 #menu-tile, #specials-tile, #map-tile {
   height: 250px;
-  width: 105%;
+  width: 100%;
   margin-bottom: 15px;
   position: relative;
-  border: 0.5px solid #3F0C1F;
+  border: 0px solid #3F0C1F;
   overflow: hidden;
 }
-
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
-  box-shadow: 0 1px 5px 1px #798B45;
+  box-shadow: 0 1px 5px 1px #cccccc;
 }
-
 #menu-tile {
-  background: url('') no-repeat;
+  background: url('../images/gal.png') no-repeat;
   background-position: center;
 }
 #specials-tile {
-  background: url('') no-repeat;
+  background: url('../images/abt.png') no-repeat;
   background-position: center;
 }
-
 #menu-tile span, #specials-tile span, #map-tile span {
   position: absolute;
   bottom: 0;
@@ -197,15 +187,14 @@ body {
   text-transform: uppercase;
   background-color: #000;
   color: #fff;
-  opacity: .4;
+  opacity: .8;
 }
-
-/* END HEADER */
+/* FOOTER */
 .panel-footer {
   margin-top: 30px;
   padding-top: 35px;
   padding-bottom: 30px;
-  background-color:lightgrey;
+  background-color: lightgrey;
   border-top: 0;
 }
 .panel-footer div.row {
@@ -222,97 +211,199 @@ body {
   font-size: .8em;
   line-height: 1.8;
 }
-#testimonials {
-  font-style: italic;
+#address {
+  color:black;
+  font-size: 15px;
+  line-height: 1.8;
+   text-align: center;
 }
 #testimonials p:nth-child(2) {
   margin-top: 25px;
 }
+/* END FOOTER */
 
-.menu-item-tile {
-  margin-bottom: 0px;
+/* END HOME PAGE */
+
+/* MENU CATEGORIES PAGE */
+.category-tile { 
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
 }
-.menu-item-tile  {
-  width:80%;
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+.category-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+/* END MENU CATEGORIES PAGE */
+
+/* SINGLE CATEGORY PAGE */
+.menu-item-tile {
+  margin-bottom: 35px;
+}
+.menu-item-tile hr {
+  width: 80%;
 }
 .menu-item-photo {
   position: relative;
-  border: 0.5px solid lightgrey; 
   overflow: hidden;
-  margin-right: -28px;
+  padding: 0;
+  margin-right: -26px;
   margin-left: auto;
   margin-bottom: 10px;
-  max-width: 250px;
-}
-.menu-item-photo div {
-  position: absolute;
-  bottom: 0px;
-  right: 0;
-  width: 150px;
-  background-color:white;
-  text-align:center;
+  max-width: 350px;
 }
 .menu-item-description {
   padding-right: 0px;
 }
 h3.menu-item-title {
   margin: 0 0 10px;
-  font-weight: bolder;
 }
 .menu-item-details {
-  font-size: .8em;
+  font-size: .9em;
+}
+#container .div{
+  padding-left: 20px;
+}
+/* END SINGLE CATEGORY PAGE */
+/* The grid: Four equal columns that floats next to each other */
+* {
+  box-sizing: border-box;
 }
 
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
 
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+div.container{
+  padding-bottom: 0px;
+  margin-top:10px;
+}
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-
 
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
-  
+  #logo-img {
+    background: url('../images/restaurant-logo_medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
   /* End Header */
+
+  /* Home Page */
+ 
+  /* End Home Page */
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-	  /* Header */
-.slideshow { 
-    margin: 50px auto; 
-    position: relative; 
-    width: 1300px; 
-    height:200px; 
-    padding: 5px; 
-    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
-    margin-left:15px;
-}
+  /* Home Page */
 
-.slideshow > div { 
-    position: absolute; 
-    top: 10px; 
-    left: 10px; 
-    right: 10px; 
-    bottom: 10px; 
+  /* End Home Page */
 }
- .panel-footer section {
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  .panel-footer section:nth-child(3) {
-    margin-bottom: 0; /* margin already exists on the whole row */
-  }
-  .panel-footer section hr {
-    width: 50%;
-  }
-}
-
-
 
 /********** Extra small devices only **********/
-@media (max-width: 477px) {
+@media (max-width: 767px) {
   /* Header */
   .navbar-brand {
     padding-top: 10px;
@@ -320,85 +411,92 @@ h3.menu-item-title {
   }
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
-    font-size: 9vw; /* 1vw = 1% of viewport width */
+    font-size: 5vw; /* 1vw = 1% of viewport width */
   }
   .navbar-brand p { /* Kosher cert */
-    font-size: 3vw;
-    margin-top: 8px;
+    font-size: .6em;
+    margin-top: 12px;
   }
-   #logo-img{
-	background: url("../images/logo-img1.png") no-repeat;
-	width:90px;
-	height:90px;
-	margin: -3px 5px -5px 5px;
-
-  }
-  #collapse-nav {
-  	padding-left: 0px;
-  	padding-right: 0px;
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
   }
 
   #collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 0.8em;
-    float:center;
-    border-top:-25px;
-    border-bottom:-25px;
+    font-size: 1.2em;
   }
   #collapsable-nav a span { /* Collapsed nav menu glyph */
-    font-size: 4vw;
-    margin-right: 0px;
-    margin-bottom: -50px;
-    margin-top:-50px;
-
+    font-size: 1em;
+    margin-right: 5px;
   }
-  #nav-list a {
-  color:black;
-  text-align:center;
-  padding-top:5px;
 
-}
-#phone a { /* Phone number */
-  text-align:center;
-  margin-top:10px;
-  padding-right:70px;
-  padding-top:1px;
-  padding-left:10px;
-  font-size:0.9em;
-}
-
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
   /* End Header */
-#slideshow { 
-    margin:0px; 
-    position: relative; 
-    overflow: hidden;
-    width: 360px; 
-    height: 230px; 
-    padding: 5px; 
-    box-shadow: 0 0 0 rgba(0,0,0,0.4); 
-}
 
-#slideshow > div { 
-    position: absolute; 
-    top: 0px; 
-    left: 0px; 
-    right:0px; 
-    bottom: 0px; 
+  /* Footer */
+ .panel-footer {
+  margin-top: 3px;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  background-color: lightgrey;
+  border-top: 0;
 }
- #menu-tile, #specials-tile {
+.panel-footer div.row {
+  margin-bottom: 25px;
+}
+#hours, #address {
+  line-height: 1.5;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: 8px;
+  line-height: 1.3;
+}
+#address {
+  color:black;
+  font-size: 11px;
+  line-height: 2.0;
+   text-align: center;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+  }
+  /* End Footer */
+
+  /* Home Page */
+  #menu-tile, #specials-tile {
     width: 360px;
     margin: 0 auto 15px;
-  }  
-   .panel-footer section {
-    margin-bottom: 30px;
+  }
+
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
     text-align: center;
   }
-  .panel-footer section:nth-child(3) {
-    margin-bottom: 0; /* margin already exists on the whole row */
-  }
-  .panel-footer section hr {
-    width: 50%;
+  .menu-item-description {
+    text-align: center;;
   }
 }
+
+
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
@@ -414,6 +512,7 @@ h3.menu-item-title {
     width: 280px;
     margin: 0 auto 15px;
   }
+
   .col-xxs-12 {
     position: relative;
     min-height: 1px;
@@ -423,7 +522,6 @@ h3.menu-item-title {
     width: 100%;
   }
 }
-
 
 
 

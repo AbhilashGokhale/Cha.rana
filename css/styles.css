@@ -8,7 +8,7 @@ body {
 /* HOME PAGE */
 /** HEADER **/
 #header-nav {
-  background-color:lightblue;
+  background-color:lightskyblue;
   border-radius: 0;
   border: 0;
 }
@@ -192,9 +192,9 @@ body {
 /* FOOTER */
 .panel-footer {
   margin-top: 30px;
-  padding-top: 35px;
-  padding-bottom: 30px;
-  background-color: lightgrey;
+  padding-top: -5px;
+  padding-bottom: 0px;
+  background-color:palegreen;
   border-top: 0;
 }
 .panel-footer div.row {
@@ -204,7 +204,7 @@ body {
   line-height: 2;
 }
 #hours > span, #address > span {
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 #address p {
   color: #557c3e;
@@ -428,22 +428,6 @@ div.container{
     font-size: 1em;
     margin-right: 5px;
   }
-
-  #call-btn > a {
-    font-size: 1.5em;
-    display: block;
-    margin: 0 20px;
-    padding: 10px;
-    border: 2px solid #fff;
-    background-color: #f6b319;
-    color: #951c49;
-  }
-  #xs-deliver {
-    margin-top: 5px;
-    font-size: .7em;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-  }
   /* End Header */
 
   /* Footer */
@@ -451,7 +435,7 @@ div.container{
   margin-top: 3px;
   padding-top: 5px;
   padding-bottom: 3px;
-  background-color: lightgrey;
+  background-color:palegreen;
   border-top: 0;
 }
 .panel-footer div.row {
